@@ -1,8 +1,8 @@
 package src;
+import java.util.Random;
 public class Player {
 
     private String playerName;
-    private Hand hand;
 
     public Player(String playerName) {
 
