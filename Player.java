@@ -1,23 +1,15 @@
-public class Player {
-    private String playerName;
-    private Hand hand;
+package src;
+import java.util.Random;
 
+
+
+public class Player {
 
     public Player(String playerName) {
 
         this.playerName = playerName;
 
-    }
-
-    public String getPlayerName() {
-
-        return playerName;
-
-    }
-
-    public void setPlayerName(String playerName) {
-
-        this.playerName = playerName;
+    
 
     }
 
@@ -32,7 +24,4 @@ public class Player {
 
 
     public void setHand(Hand hand) {
-        this.hand = hand;
-    }
-}
 

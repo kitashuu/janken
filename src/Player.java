@@ -1,6 +1,7 @@
 package src;
 import java.util.Random;
 
+
 public class Player {
     private String playerName;
     private Hand hand;
@@ -83,7 +84,14 @@ public class Player {
         this.hand = hand;
 
     }
+    public Hand getHand() {
 
+        return this.hand;
+
+    }
+    public void setHand(Hand hand) {
+        this.hand = hand;
+    }
 }
 
 
